@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Professional styling enhancements */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+  }
+}
+
+@layer components {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .professional-card {
+    @apply bg-gradient-to-br from-charcoal-900/80 to-charcoal-800/80 backdrop-blur-sm border border-maroon-800/30 rounded-xl shadow-lg hover:shadow-2xl hover:shadow-maroon-900/20 transition-all duration-300;
+  }
+  
+  .professional-button {
+    @apply bg-maroon-gradient text-white px-6 py-3 rounded-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1;
+  }
+}
