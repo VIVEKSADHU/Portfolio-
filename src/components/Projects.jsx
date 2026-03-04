@@ -5,8 +5,8 @@ const projects = [
     title: 'PrepAI - Personalized Placement Preparation',
     description: 'Full-stack AI-powered platform generating customized interview prep strategies. Serves 500+ users with company-specific roadmaps based on CGPA, college, and role preferences.',
     tech: ['React.js', 'Firebase', 'Gemini API', 'Cloud Functions'],
-    link: 'https://prep-ai-six-sigma.vercel.app/',
-    status: 'July 2025 – Present'
+    link: 'https://prepai-viveksadhu.vercel.app/',
+    status: 'July 2025 – Aug 2025'
   },
   {
     title: 'Telehealth Prestige - Zero-Latency Healthcare',
